@@ -1,0 +1,32 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/_00_Test/">
+    <Project Path="CppTest/CppTest.vcxproj" Id="c4671284-69c4-4659-8e68-cbe91f77e9a5" />
+  </Folder>
+  <Folder Name="/_01_Fundamentals/">
+    <Project Path="NumericLib/NumericLib.vcxproj" Id="0170569a-075d-4c21-9213-2ddcf24bdac5" />
+    <Project Path="Topic01_ImportDllLibrary/Topic01_ImportDllLibrary.vcxproj" Id="60e4b72b-cba4-4023-b986-7f9afb384b10">
+      <BuildDependency Project="NumericLib/NumericLib.vcxproj" />
+    </Project>
+    <Project Path="Topic07_08_StringManipulation/Topic07_08_StringManipulation.csproj" />
+    <Project Path="Topic09_CallbackFunctionWithNumericDllLibrary/Topic09_CallbackFunctionWithNumericDllLibrary.csproj" Id="16bab69a-1726-4a94-9106-2d1bb5b1c0a1">
+      <BuildDependency Project="NumericLib/NumericLib.vcxproj" />
+    </Project>
+    <Project Path="Topic10_11_ReadWriteIniAndJsonFiles/Topic10_11_ReadWriteIniAndJsonFiles.csproj" />
+  </Folder>
+  <Folder Name="/_02_InterProcess_Communication/">
+    <Project Path="Topic02_FindWindowAndSendMessage/Topic02_FindWindowAndSendMessage.vcxproj" Id="f8260114-df9e-48c9-a353-617c72374f55" />
+    <Project Path="Topic02_FindWindowAndSendMessageWinform/Topic02_FindWindowAndSendMessageWinform.csproj" Id="b506d84c-c1e1-4c01-a47c-6c619bbc5030" />
+    <Project Path="Topic04_SocketProgrammingClient/Topic04_SocketProgrammingClient.vcxproj" Id="d089889a-3181-4b42-95eb-e739e81b4f1c" />
+    <Project Path="Topic04_SocketProgrammingServer/Topic04_SocketProgrammingServer.vcxproj" Id="167d4b79-756e-4670-adeb-d646ccfb4068" />
+  </Folder>
+  <Folder Name="/_03_OS_And_Hardware/">
+    <Project Path="Topic03_TheUsageOfThread/Topic03_TheUsageOfThread.vcxproj" Id="8f834dae-9d05-4884-b219-6ef9e6f95d46" />
+    <Project Path="Topic05_RegisterToListenForWindowsEvent/Topic05_RegisterToListenForWindowsEvent.vcxproj" Id="56dea0a6-a2f1-49cf-a06f-4ce25121ff3c" />
+    <Project Path="Topic06_ReadAndWriteRegistry/Topic06_ReadAndWriteRegistry.vcxproj" Id="7eb9a3ae-4313-4d2b-9a92-5ee6c79a04fb" />
+  </Folder>
+</Solution>
